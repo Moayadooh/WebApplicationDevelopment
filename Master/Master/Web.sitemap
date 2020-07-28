@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="AlNadhaHospital.aspx" title="Al Nadha Hospital"  description="">
+    
+    <siteMapNode url="Services.aspx" title="Services"  description="" />
+    
+    <siteMapNode url="Facilities.aspx" title="Facilities"  description="" >
+      <siteMapNode url="Cafe.aspx" title="Cafe"  description="" />
+      <siteMapNode url="ElectronicBeds.aspx" title="Electronic Beds"  description="" />
+      <siteMapNode url="Generators.aspx" title="Generators"  description="" />
+    </siteMapNode>
+    
+    <siteMapNode url="Registration.aspx" title="Registration"  description="" >
+      <siteMapNode url="ViewRegistration.aspx" title="View Registration"  description="" />
+    </siteMapNode>
+    
+    <siteMapNode url="Contacts.aspx" title="Contacts"  description="" />
+    
+  </siteMapNode>
+</siteMap>

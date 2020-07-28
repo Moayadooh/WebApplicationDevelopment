@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="SignUpPage.aspx" title="Sign up"  description="">
+    <siteMapNode url="LoginPage.aspx" title="Login"  description="" />
+    <siteMapNode url="BookTripPage.aspx" title="Book Trip"  description="" />
+    <siteMapNode url="PaymentPage.aspx" title="Payment"  description="" />
+    <siteMapNode url="AdminPage.aspx" title="Admin"  description="" />
+    <siteMapNode url="UpdateAccountPage.aspx" title="Update Customer Account"  description="" />
+    <siteMapNode url="BookAndUpdateTripPage.aspx" title="Book and Update Trip"  description="" />
+  </siteMapNode>
+</siteMap>

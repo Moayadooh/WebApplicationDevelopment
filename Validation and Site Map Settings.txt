@@ -1,0 +1,16 @@
+
+
+
+
+<appSettings>
+  <add key="ValidationSettings:UnobtrusiveValidationMode" value="None"/>
+</appSettings>
+
+
+
+<siteMap enabled="true">
+  <providers>
+    <clear/>
+    <add siteMapFile="Web.sitemap" name="AspNetXmlSiteMapProvider" type="System.Web.XmlSiteMapProvider" securityTrimmingEnabled="true"/>
+  </providers>
+</siteMap>
