@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,7 @@ namespace ConsoleApp1
             //Console.WriteLine(Sigmoid(n));
             //int[] arr = new int[5];
 
-            int[] arr = { 3, 4, 6, 1, 8};
+            /*int[] arr = { 3, 4, 6, 1, 8};
             for(int i = 0; i < arr.Length; i++)
             {
                 for (int j = 0; j < arr.Length - 1; j++)
@@ -39,7 +40,11 @@ namespace ConsoleApp1
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.WriteLine(arr[i]);
-            }
+            }*/
+
+            List<String> obj = new List<String>();
+            obj.Add("s");
+            Console.WriteLine(obj[1]);
 
         }
     }
