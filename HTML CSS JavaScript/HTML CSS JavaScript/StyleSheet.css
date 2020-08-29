@@ -1,6 +1,6 @@
 ﻿body {
     background-color: pink;
-    color: crimson; /*Change text color*/
+    color: crimson; /*change text color*/
 }
 
 h1 {
@@ -8,14 +8,24 @@ h1 {
     font-size: 20px;
 }
 
-#title6 {
+img {
+    border: 5px solid red;
+}
+
+#title6 { /*id (used for one element only)*/
     background-color: green;
 }
 
-.group1 {
+.group1 { /*class (used for more than one element)*/
     background-color: gold;
 }
 
-img {
-    background-color: gold;
+button {
+    width: 80px; /*width: 100%; (100% of the screen size)*/
+}
+
+* { /*access to all the elements*/
+    direction: ltr; /*direction: rtl; (the content start from the right)*/
+    text-align: center;
+    margin: auto;
 }
