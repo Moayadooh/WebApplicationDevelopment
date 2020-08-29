@@ -1,2 +1,21 @@
 ﻿body {
+    background-color: pink;
+    color: crimson; /*Change text color*/
+}
+
+h1 {
+    background-color: red;
+    font-size: 20px;
+}
+
+#title6 {
+    background-color: green;
+}
+
+.group1 {
+    background-color: gold;
+}
+
+img {
+    background-color: gold;
 }
