@@ -7,13 +7,6 @@ button {
     width: 80px; /*width: 100%; (100% of the screen size)*/
 }
 
-img {
-    border: 3px solid black;
-    width: 30%;
-    display: none;/*hide the element*/
-    /*display: block; (display the elements)*/
-}
-
 #title1 { /*id (used for one element only)*/
     background-color: black;
     text-align: center;
@@ -22,6 +15,16 @@ img {
 
 .group1 { /*class (used for more than one element)*/
     background-color: gray;
+}
+
+img {
+    border: 3px solid black;
+    width: 30%;
+}
+
+#images {
+    display: none; /*hide the element*/
+    /*display: block; (display the elements)*/
 }
 
 * { /*access to all the elements*/

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" /> <!––Convert characters into machine readable code–->
     <link rel="stylesheet" href="StyleSheet.css" />
+    <script type="text/javascript" src="JavaScript.js"></script>
     <title>Home</title>
 </head>
 <body>
@@ -27,8 +28,8 @@
 
     <br />
     <br />
-    <input type="text" />
-    <button class="group1">Send</button>
+    <input type="text" id="txt1" />
+    <button class="group1" onclick="Greet();">Send</button>
     <hr />
 
     <ul>
@@ -38,7 +39,12 @@
     </ul>
 
     <br />
-    <img src="Picture_01_Greenery.jpg" width="256" height="400" />
-    <img src="https://s2.reutersmedia.net/resources/r/?m=02&d=20200225&t=2&i=1495038515&r=LYNXMPEG1O12G&w=1280" width="700" height="400" />
+    <input type="button" value="Change Title" onclick="ChangeTitle();" />
+    <button type="button" onclick="ShowHide();">Show/Hide</button>
+    <br />
+    <div id="images">
+        <img src="Picture_01_Greenery.jpg" width="256" height="400" />
+        <img src="https://s2.reutersmedia.net/resources/r/?m=02&d=20200225&t=2&i=1495038515&r=LYNXMPEG1O12G&w=1280" width="700" height="400" />
+    </div>
 </body>
 </html>
