@@ -10,7 +10,7 @@ h1 {
 
 img {
     border: 5px solid red;
-    width: 60%;
+    width: 30%;
 }
 
 #title6 { /*id (used for one element only)*/
@@ -27,5 +27,8 @@ button {
 
 * { /*access to all the elements*/
     direction: ltr; /*direction: rtl; (the content start from the right)*/
-    text-align: left;
+    text-align: center;
+    margin: auto;
+    /*float: left; float: right;*/
+    /*clear: both; (fix the problms of float)*/
 }
