@@ -10,6 +10,7 @@ h1 {
 
 img {
     border: 5px solid red;
+    width: 60%;
 }
 
 #title6 { /*id (used for one element only)*/
@@ -17,7 +18,7 @@ img {
 }
 
 .group1 { /*class (used for more than one element)*/
-    background-color: gold;
+    background-color: teal;
 }
 
 button {
@@ -26,6 +27,5 @@ button {
 
 * { /*access to all the elements*/
     direction: ltr; /*direction: rtl; (the content start from the right)*/
-    text-align: center;
-    margin: auto;
+    text-align: left;
 }
