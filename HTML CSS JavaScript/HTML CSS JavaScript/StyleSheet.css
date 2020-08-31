@@ -1,6 +1,18 @@
 ﻿body {
-    background-color: limegreen;
+    background-color: cornflowerblue;
     color: white; /*change text color*/
+}
+
+table {
+    border-collapse: collapse; /*set singe line*/
+}
+
+tr:nth-child(even) {
+    background-color: red;
+}
+
+tr:nth-child(odd) {
+    background-color: orangered;
 }
 
 button {

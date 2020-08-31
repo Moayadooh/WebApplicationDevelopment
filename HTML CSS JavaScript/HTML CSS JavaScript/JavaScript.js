@@ -29,11 +29,19 @@
         isOK = false;
     }
 
+    var progLangs = document.getElementsByName("language");
+    var items = "";
+
+    for (var i = 0; i < progLangs.length; i++) {
+        if (progLangs[i].checked == true)
+            items += progLangs[i].value + ", ";
+    }
+
     if (isOK) {
         document.getElementById("name").style.border = "none";
         document.getElementById("mobile").style.border = "none";
         document.getElementById("age").style.border = "none";
-        window.alert("Name is " + name + "\nMobile No is " + mobileNo + "\nAge is " + age + "\nGender is " + gender);
+        window.alert("Name is " + name + "\nMobile No is " + mobileNo + "\nAge is " + age + "\nGender is " + gender + "\nProgramming Languages is " + items);
     }
 }
 
