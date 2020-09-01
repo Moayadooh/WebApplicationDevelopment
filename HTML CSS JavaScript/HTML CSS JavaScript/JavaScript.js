@@ -46,7 +46,7 @@
 }
 
 function ShowHide() {
-    var status = document.getElementById("images").style.display;
+    var status = document.getElementById("images").getElementsByTagName("img").style.display;
     if (status == "none")
         status = "block";
     else
